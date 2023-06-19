@@ -164,6 +164,10 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.navbar-brand {
+  transform: scale(2.5); /* Cambia el valor según el tamaño que deseas */
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -10959,6 +10963,7 @@ header.masthead .masthead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: -1.5px -1.5px 0 #2b2c34, 1.5px -1.5px 0 #2b2c34, -1.5px 1.5px 0 #2b2c34, 1.5px 1.5px 0 #2b2c34; /* Sombra de texto para simular contorno */
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
@@ -10966,6 +10971,7 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: -1.5px -1.5px 0 #2b2c34, 1.5px -1.5px 0 #2b2c34, -1.5px 1.5px 0 #2b2c34, 1.5px 1.5px 0 #2b2c34; /* Sombra de texto para simular contorno */
 }
 
 @media (min-width: 768px) {
@@ -11261,6 +11267,15 @@ section#contact {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+section#contact form#contactForm .service-opt{
+  color: #f0f0f0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section#contact .section-heading {
   color: #fff;
 }
